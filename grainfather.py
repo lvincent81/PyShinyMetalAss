@@ -12,6 +12,7 @@ def calc_mashvol(massofgrain, volumeunits):
     #if 'lb' in str(massofgrain):
 
     mashvolume = 0
+    test
     justnum = re.compile(r'[^\d+\.*\d*]')
     print(justnum.sub('',massofgrain))
     massvalue = float(justnum.sub('',massofgrain))
